@@ -1,0 +1,135 @@
+body {
+    margin: 50px;
+    border-bottom: 70PX solid gray;
+    background-color: white;
+    
+}
+
+h1 {
+    font-size: 40px;
+    color: white;
+    background-color: lightseagreen;
+    padding: 15px;
+    margin: 0px 50px 0px 50px;
+}
+
+h2 {
+    font-size: 40px;
+    color: lightseagreen;
+    border-bottom: 3px solid gray;
+    padding-bottom: 25px;
+
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+    color: lightseagreen;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 65% 0%;
+  grid-column-gap: 4em;
+  background-color: rgba(223, 223, 223, 0.623);
+}
+ .about-me {
+   width: 700px;
+   height: 450px; 
+   margin: 0px 0px 50px 50px;
+   padding: 5px 50px 150px 50px;
+   background-color: white;
+  
+ }
+
+img{
+  float: left;
+  padding: 20px;
+  height: 250px;
+  width: 250px;
+  
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    
+}
+header{
+  padding-bottom: 30px;
+  background-color: rgba(223, 223, 223, 0.623);
+
+}
+
+.social-links {
+    background-color: white;
+    width: 250px;
+    height: 175px;
+    padding: 20px;
+    margin-left: 20px;
+
+}
+
+.navigation-links a:hover {
+  color: black;
+}
+.navigation-links a {
+  text-decoration: none;
+  transition: 0.5s;
+  color: #8a8a8a;
+}
+
+.navigation-links li {
+    display: inline-block;
+    padding: 15px;
+    margin-right: 50px;
+}
+
+.social-link-wrappers {
+    display: flex;
+
+}
+
+.social-link-wrappers li {
+    display: flex; 
+    padding: 5px;
+
+}
+
+.fa-github {
+  background: black;
+  color: white;
+    padding: 10px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+      padding: 10px;
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  
+  }
+
+  .fa-stack-overflow {
+    background: orange;
+    color: white;
+      padding: 10px;
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+  

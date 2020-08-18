@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width,initial-scale=1,shrink-to-fit=no">
+    <title>My Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="mypage.css">
+
+</head>
+
+<body>
+    <header>
+
+        <div class="navigation">
+            <h1>JC Rodriguez<i class="fa fas-save"></i></h1>
+
+            <div class="navigation-links">
+                <li> <a href="About.html">About</a></li>
+                <li><a href="Portfolio.html">Portfolio</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </div>
+
+        </div>
+
+    </header>
+    <main>
+        <div class="about-me">
+            <h2>About Me</h2>
+            <div class="image">
+                <img src="JC.jpg" alt="" />
+            </div>
+
+            <article>
+                <p>
+                    Dear Future Company,
+                    Throughout my career, I have contributed to positive
+                    business results through effective organization,
+                    prioritization and follow-through of key organizational
+                    projects. My strengths and qualifications are an ideal
+                    match for the Service Desk Technician requirements and
+                    will bring immediate value to the Company
+                </p>
+                <p>
+                    In my former Service Desk Technician role, I exercised a
+                    calculated and methodical approach to problem-solving.
+                    While I am independently motivated, I appreciate
+                    collective efforts and collaborate productively within
+                    group settings. Moreover, I am competent in writing and
+                    data analysis with proficiency in process development.
+                </p>
+                <p>This opportunity is especially exciting as my professional
+                    goals align with the IT Industry mission and values. Further,
+                    my customer service, critical thinking and problem-solving
+                    abilities will serve to support your continued organizational
+                    efforts.
+                </p>
+                <p>To illustrate the scope of my career history and
+                    professional competencies, please take a moment to
+                    review my enclosed resume. I am grateful for your
+                    evaluation of my credentials and subsequent response.
+                </p>
+            </article>
+        </div>
+
+        <div class="social-links">
+            <h3>Connect with ME</h3>
+
+            <div class="social-link-wrappers">
+                <li><a href="https://github.com/sanjothebay/" target="_blank"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/jc-rodriguez-805339180/" target="_Blank"><i
+                            class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://stackoverflow.com/users/13977233/jc" target="_Blank"><i
+                            class="fa fa-stack-overflow"></i></a></li>
+
+            </div>
+        </div>
+
+
+    </main>
+
+</body>
+
+</html>
